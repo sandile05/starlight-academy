@@ -32,6 +32,10 @@ section:nth-child(even) {
     z-index: 2;
   }
 
+  h2, h3{
+     color: #154f8d;
+  }
+
   /* Basic Button Styling */
 .btn {
     display: inline-block;
@@ -83,13 +87,13 @@ section:nth-child(even) {
   
   .about-img,
   .about-text {
-    flex: 1 1 45%;
+    flex: 1 1 40%;
     min-width: 300px;
   }
   
   .about-img img {
     width: 100%;
-    height: auto;
+    max-height: 200px;;
     border-radius: 8px;
   }
   

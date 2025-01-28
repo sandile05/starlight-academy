@@ -80,3 +80,9 @@ section:nth-child(even) {
   .btn-admission:hover {
     background-color: #0056b3;
   }
+
+
+  footer {
+    background: #f8f9fa;
+    color: #6c757d;
+  }

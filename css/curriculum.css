@@ -130,6 +130,12 @@ section:nth-child(even) {
     color: #0056b3;
   }
 
+
+  footer {
+    background: #f8f9fa;
+    color: #6c757d;
+  }
+
   @media (max-width: 768px) {
     .staff-card {
       margin-bottom: 30px;
