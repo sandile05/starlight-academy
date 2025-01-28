@@ -1,0 +1,19 @@
+.section-header h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  .image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+  }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
