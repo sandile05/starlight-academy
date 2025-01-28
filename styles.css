@@ -1,3 +1,8 @@
+/* Apply a background color to odd-numbered sections */
+section:nth-child(even) {
+    background-color: #dadcdd; /* Light blue background for odd sections */
+  }
+  
 /* Hero Section */
 .hero {
     position: relative;
@@ -94,6 +99,51 @@
     font-size: 1rem;
     line-height: 1.6;
   }
+
+  /* Academics Section */
+.academics-section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .programs {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .program {
+    flex: 1 1 30%;
+    min-width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .program h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .program p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
   
   /* Responsive Design */
   @media (max-width: 768px) {
@@ -111,5 +161,16 @@
     .about-img img {
       margin-bottom: 20px;
     }
+
+    .programs {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .program {
+        flex: 1 1 100%;
+        min-width: 100%;
+        margin-bottom: 20px;
+      }
   }
   
