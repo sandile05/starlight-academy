@@ -4,7 +4,6 @@ section:nth-child(even) {
  
  /* Custom CSS for unique styling */
  .curriculum-container {
-    /* background-color: #f9f9f9; */
     padding: 50px 0;
   }
 
@@ -62,7 +61,6 @@ section:nth-child(even) {
 
   /* Custom CSS for Key Staff Section */
   .key-staff-container {
-    /* background-color: #f9f9f9; */
     padding: 50px 0;
   }
 
@@ -132,7 +130,7 @@ section:nth-child(even) {
     color: #0056b3;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     .staff-card {
       margin-bottom: 30px;
     }

@@ -1,0 +1,82 @@
+section:nth-child(even) {
+    background-color: #dadcdd; /* Light blue background for odd sections */
+  }
+  
+  /* Custom CSS for Admission and Fees Section */
+  .admission-fees-container {
+    padding: 50px 0;
+  }
+
+  .admission-fees-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .admission-fees-header h2 {
+    font-size: 2.5rem;
+    color: #154f8d;
+    font-weight: bold;
+  }
+
+  .admission-fees-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  .fees-table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+
+  .fees-table th, .fees-table td {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .fees-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+
+  .fees-table td {
+    color: #555;
+  }
+
+  .admission-details {
+    margin-top: 40px;
+    font-size: 1.1rem;
+  }
+
+  .admission-details ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .admission-details ul li {
+    margin-bottom: 15px;
+    color: #555;
+  }
+
+  .admission-details h4 {
+    font-size: 1.8rem;
+    color: #154f8d;
+    margin-bottom: 20px;
+  }
+
+  .btn-admission {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .btn-admission:hover {
+    background-color: #0056b3;
+  }
