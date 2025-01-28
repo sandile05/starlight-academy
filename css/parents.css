@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  
+  
+  header {
+    background: #154f8d;
+    color: #fff;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  footer {
+    background: #f8f9fa;
+    color: #6c757d;
+  }
+ 
+  /* General Section Styling */
+.top {
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section Header */
+  .section-header h2 {
+    font-size: 2.5rem;
+    color: #154f8d;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Text Column Styling */
+  .top p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  
+  /* Image Styling */
+  .image {
+    max-height: 350px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .top {
+      padding: 1.5rem 1rem;
+    }
+  
+    .section-header h2 {
+      font-size: 2rem;
+    }
+  
+    .top p {
+      font-size: 1rem;
+    }
+  
+    .image {
+      max-height: 300px;
+    }
+  }
+  
